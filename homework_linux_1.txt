@@ -1,0 +1,9 @@
+   0  ls -al /
+   1  mkdir -p /home/user/start /opt/task ; tree /home /opt
+   2 echo "Start" >> /home/user/start/1.txt ; date >> /home/user/start/1.txt ; cat /home/user/start/1.txt
+   3 cat /home/user/start/1.txt > /opt/task/start.txt
+   4 ls -al / |tail -4 >> /opt/task/start.txt
+   5 cp -r /opt/ /tmp/testnew ; tree /tmp/testnew
+   6  cat readme.txt >> /tmp/testnew/task/start.txt; cat /tmp/testnew/task/start.txt
+   7 rm -r /opt/task ; tree /opt
+   8 history >> homework_linux_1.txt ; export_file homework_linux_1.txt
