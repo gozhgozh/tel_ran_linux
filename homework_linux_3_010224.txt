@@ -1,0 +1,11 @@
+   0 date >> today.txt
+   1 mkdir -p /tmp/hw3/newfile/sveta
+   2 echo "Homework3" >> today.txt
+   3 df -h / >> today.txt
+   4 history | tail -n 5 >> today.txt
+   5 cat /proc/cpuinfo | grep vendor >> today.txt
+   6 nano today.txt
+   7 ps auux | tail -n+2 | wc -l >> today.txt
+   8 cp today.txt /tmp/hw3/newfile/sveta
+   9 rm today.txt
+  10 history >> homework_linux_3.txt ; export_file homework_linux_3.txt
